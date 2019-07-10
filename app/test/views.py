@@ -26,3 +26,6 @@ def testid():
             return jsonify(success_msg)
         else:
             return jsonify(param_err)
+
+# 调用：
+# http://127.0.0.1:7777/test/testid?user_id=1

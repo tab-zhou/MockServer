@@ -19,3 +19,6 @@ def get(id):
     for user in user_data:
         if user['id'] == id:
             return jsonify(code=200, user=user)
+
+# 调用：
+# http://127.0.0.1:7777/user/1
