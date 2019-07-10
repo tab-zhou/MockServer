@@ -3,6 +3,7 @@ from app import app
 from app.user import user
 from app.test import test
 
+# 默认environment 是production
 app.config.update(DEBUG=True)
 app.config.update(ENV="development")
 
